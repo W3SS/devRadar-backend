@@ -1,5 +1,5 @@
 const Dev = require('../models/Dev')
-const parseStringAsArray = require('../utils/parseStringAsArray')
+const parseStringAsArray = require('../helpers/parseStringAsArray')
 
 module.exports = {
     async index(req, res) {
